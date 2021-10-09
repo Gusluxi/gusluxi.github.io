@@ -22,6 +22,15 @@ div.image-box img {
 div.desc {
   padding: 15px;
   text-align: center;
+
+}
+ul.desc {
+  display: inline-block;
+  margin: 15px;
+  padding: 15px;
+  /* For IE, the outcast */
+  zoom:1;
+  *display: inline;
 }
 
 .cool-button {
@@ -30,7 +39,7 @@ div.desc {
   border: 2px solid #1A1A1A;
   border-radius: 15px;
   box-sizing: border-box;
-  color: #3B3B3B;
+  color: #9c9c9c;
   cursor: pointer;
   display: inline-block;
   font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
