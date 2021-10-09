@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Kailua Car rental</title>
+    <link rel="stylesheet" type="text/css" href="MyIndexCSS.css">
+</head>
+<body style="background-image:  url('https://i.imgur.com/H5A6kfe.gif'); background-position: center">
+<div id="header">
+    <br/>
+
+</div>
+<div id="box">
+    <h1 style="text-align: center; color:white; font-family:verdana;">Kailua Car Rental</h1>
+    <form action="/action_page.php">
+    <label style="position:absolute; left:28%; top:42%; color:white; font-size:140%; "
+           for="selection-box">Choose a car type</label>
+    <select name="selection-box" id="selection-box">
+        <option value="family">Family</option>
+        <option value="luxery">Luxery</option>
+        <option value="sport">Sport</option>
+    </select>
+    <br><br>
+    <input class="btn-submit" id="btn-submit" type="submit" value="Submit">
+</form>
+
+    <a href="/viewCars.html">
+        <button class="btn1" id="btn1">View All Cars</button>
+    </a>
+    <a href="/viewCustomers">
+        <button class="btn2" id="btn2">View All Customers</button>
+    </a>
+    <a href="/viewContracts">
+        <button class="btn3" id="btn3">View All Contracts</button>
+    </a>
+
+
+</div>
+
+
+</body>
+</html>
