@@ -3,6 +3,23 @@ body {
 
 }
 
-.text-color {
-  color: #f3f2f2;
+div.image-box {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.image-box:hover {
+  border: 1px solid #777;
+}
+
+div.image-box img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
