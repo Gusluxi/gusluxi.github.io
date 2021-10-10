@@ -36,7 +36,7 @@ ul.desc {
 .cool-button {
   appearance: none;
   background-color: transparent;
-  border: 2px solid #1A1A1A;
+  border: 2px solid #9c9c9c;
   border-radius: 15px;
   box-sizing: border-box;
   color: #9c9c9c;
@@ -57,7 +57,6 @@ ul.desc {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 100%;
   will-change: transform;
 }
 
